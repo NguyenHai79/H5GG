@@ -4,9 +4,9 @@ var modules = h5gg.getRangesList("UnityFramework"); //module file name
 
 var base = modules[0].start; //module base addr in runtime memory
 
-var addr = Number(base) + 0x01915304; //offset
+var addr = Number(base) + 0x10001A36C; //offset
 
-patchBytes(addr,  "00E0AFD2C0035FD6"); //bytes
+patchBytes(addr,  "1f2003d5"); //bytes
 
 /********************************************************/
 //only jailbroken devices can do this
